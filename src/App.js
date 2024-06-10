@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function App() {
     const CLIENT_ID = "6b423790ef4f41bd8b7ea3ede5e47c17";
-    const REDIRECT_URI = "http://localhost:3000";
+    const REDIRECT_URI = "https://spotify-api-taupe.vercel.app";
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPONSE_TYPE = "token";
     const SCOPE = "streaming user-read-email user-read-private user-modify-playback-state";
